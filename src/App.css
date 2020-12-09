@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 256px;
+  border-radius: 50px;
+
+  background: #24c122;
 }
 
 .App-logo {
